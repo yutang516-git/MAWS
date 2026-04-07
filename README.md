@@ -5,7 +5,7 @@ This is a water body segmentation task for Africa. The 'MAWS.zip' file contains 
 The core modules are in ./MedSAM/models/ImageEncoder/vit/adapter_fusionblock.
 
 ## Recommended directory structure
-./MAWS_dataset/
+data/MAWS_dataset/
 ├── image/ # Input images (.jpg)
 │ ├── sample1.jpg
 │ └── sample2.jpg
