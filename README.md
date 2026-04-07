@@ -5,7 +5,7 @@ This is a water body segmentation task for Africa. The 'MAWS.zip' file contains 
 The core modules are in ./MedSAM/models/ImageEncoder/vit/adapter_fusionblock.
 
 ## Recommended directory structure
-data/MAWS_dataset/
+data/MAWS_dataset/                                                                                                                                   
 ├── image/ # Input images (.jpg)                                                                                                                    
 │ ├── sample1.jpg                                                                                                                                    
 │ └── sample2.jpg                                                                                                                                    
@@ -26,6 +26,6 @@ Use the test.py for testing.
 
 ## References
 
-The code is based on  [MFNet](https://github.com/sstary/SSRS.). Thanks for their great works!
+The code is based on  [MFNet](https://github.com/sstary/SSRS). Thanks for their great works!
 
 
