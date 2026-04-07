@@ -6,14 +6,14 @@ The core modules are in ./MedSAM/models/ImageEncoder/vit/adapter_fusionblock.
 
 ## Recommended directory structure
 data/MAWS_dataset/
-├── image/ # Input images (.jpg)
-│ ├── sample1.jpg
-│ └── sample2.jpg
-├── ir/ # Infrared images (.jpg)
-│ ├── sample1R.jpg
-│ └── sample2R.jpg
-└── label/ # Ground truth (.png)
-├── sample1N.png
+├── image/ # Input images (.jpg)                                                                                                                    
+│ ├── sample1.jpg                                                                                                                                    
+│ └── sample2.jpg                                                                                                                                    
+├── ir/ # Infrared images (.jpg)                                                                                                                    
+│ ├── sample1R.jpg                                                                                                                                  
+│ └── sample2R.jpg                                                                                                                                   
+└── label/ # Ground truth (.png)                                                                                                                     
+├── sample1N.png                                                                                                                                     
 └── sample2N.png
 
 ## Usage
