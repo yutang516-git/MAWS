@@ -1,6 +1,6 @@
 # Africa Water Body Segmentation
 
-This is a water body segmentation task for Africa. The 'MAWS.zip' file contains a small portion of our constructed dataset, which is used for testing.
+This is a water body segmentation task for Africa. The MAWS dataset is available at the following link:https://pan.baidu.com/s/1YkcKSJIWKEWmoNEKnXrAYg  Access code:7wes
 
 The core modules are in ./MedSAM/models/ImageEncoder/vit/adapter_fusionblock.
 
@@ -20,9 +20,7 @@ data/MAWS_dataset/
 
 You can get the pre-trained encoder 'sam_vitb.pth' here: https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints.
 
-The fine-tuned parameter of M<sup>2</sup>FNet file is 'last-59.pth'.
-
-Use the test.py for testing.
+Use the train.py for trainning and testing.
 
 ## References
 
